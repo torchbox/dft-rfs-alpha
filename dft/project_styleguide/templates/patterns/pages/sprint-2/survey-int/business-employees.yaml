@@ -1,0 +1,15 @@
+context:
+  page:
+    title: 'Business details'
+    introduction: false
+    backURL: business-details.html
+    nextURL: business-no-of-trips.html
+  questionOne:
+    label: 'Does your firm employ fewer than 10 people in the UK?'
+    id: business-employ
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: business-employ }
+      - { label: 'No', id: business-employ-2 }
+  action:
+    label: Continue

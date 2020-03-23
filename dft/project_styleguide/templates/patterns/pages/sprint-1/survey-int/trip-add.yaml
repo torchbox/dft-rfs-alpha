@@ -1,0 +1,15 @@
+context:
+  page:
+    title: Add a trip
+    introduction: false
+    backURL: vehicle-trip-overview.html
+    nextURL: trip-depart-date.html
+  questionOne:
+    label: 'Did the vehicle travel during the survey period?'
+    id: trip-travel
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: trip-travel }
+      - { label: 'No', id: trip-travel-2 }
+  action:
+    label: Continue

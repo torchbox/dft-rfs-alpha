@@ -1,0 +1,15 @@
+context:
+  page:
+    title: false
+    introduction: false
+    backURL: add-journey-laden.html
+    nextURL: add-journey-loaded.html
+  questionOne:
+    label: 'Were the goods being transferred from a shipping port, dock, rail siding, terminal or airport?'
+    id: journey-transferred-from-pre
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: journey-transferred-from-pre }
+      - { label: 'No', id: journey-transferred-from-pre2 }
+  action:
+    label: Continue

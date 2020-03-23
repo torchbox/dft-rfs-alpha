@@ -1,0 +1,18 @@
+context:
+  page:
+    title: Goods
+    introduction: false
+    backURL: add-journey-distance-validation.html
+    nextURL: add-journey-goods-dangerous-pre.html
+  questionOne:
+    label: 'Basic description of goods carried to this stop'
+    hint: 'For example, live animals, household waste, mail or parcels, plant hire'
+    id: goods-description
+    modifier: govuk-input--width-20
+  suggested:
+    title: "or select from goods you've loaded previously"
+    options:
+      - { title: 'Live animals' }
+      - { title: 'Mail' }
+  action:
+    label: Continue

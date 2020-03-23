@@ -1,0 +1,15 @@
+context:
+  page:
+    title: Vehicle capacity
+    introduction: false
+    backURL: trip-leaving-capacity.html
+    nextURL: trip-leaving-capacity-weight.html
+  questionOne:
+    label: 'On leaving the UK was your vehicle carrying its full capacity by space?'
+    id: capacity-space
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: capacity-space }
+      - { label: 'No', id: capacity-space-2 }
+  action:
+    label: Continue

@@ -1,0 +1,19 @@
+context:
+  page:
+    title: 'What is the vehicles gross weight?'
+    introduction: false
+    backURL: vehicle-trailer.html
+    nextURL: vehicle-capacity.html
+  questionOne:
+    label: "Vehicle's gross weight"
+    hint: 'Total vehicle weight plus maximum weight of cargo that can be carried'
+    modifier: govuk-input--width-20
+    id: vehicle-weight
+  questionTwo:
+    label: '&nbsp;'
+    id: vehicle-weight-unit
+    options:
+      - { label: 'Kg', id: vehicle-weight-unit }
+      - { label: 'lbs', id: vehicle-weight-unit-2 }
+  action:
+    label: Continue

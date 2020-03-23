@@ -1,0 +1,33 @@
+context:
+  page:
+    title: Your trip
+    introduction: false
+    body: false
+    backURL: trip-countries.html
+    nextURL: consignment-add.html
+  summary:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU, editable: false }
+      - { label: 'Vehicle travelled', details: 'Yes', editable: true }
+      - { label: 'Total round trip distance
+      ', details: '2,500 miles', editable: true }
+      - { label: 'Countries travelled through
+      ', details: 'FR, ES', editable: true }
+  outward:
+    options:
+      - { label: 'Date leaving UK', details: Monday 18th February 2020, editable: true }
+      - { label: 'UK port of departure', details: 'Port of London', editable: true }
+      - { label: 'Foreign port of arrival', details: 'Calais', editable: true }
+      - { label: 'Capacity by space', details: 'Full', editable: true }
+      - { label: 'Capacity by weight', details: 'Full', editable: true }
+  return:
+    options:
+      - { label: 'Date returning to UK', details: Monday 25th February 2020, editable: true }
+      - { label: 'Foreign port of departure', details: 'Calais', editable: true }
+      - { label: 'UK port of arrival', details: 'Port of London', editable: true }
+      - { label: 'Capacity by space', details: 'Empty', editable: true }
+      - { label: 'Capacity by weight', details: 'Empty', editable: true }
+  action:
+    label: Add consignment
+  actionTwo:
+    label: Return to vehicle and trip overview

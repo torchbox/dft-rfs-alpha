@@ -1,0 +1,13 @@
+context:
+  page:
+    title: 'Where is the vehicle based?'
+    introduction: false
+    backURL: vehicle-trailer.html
+    nextURL: vehicle-fuel.html
+  questionOne:
+    label: 'Location'
+    hint: 'For example, BS1 5AP'
+    modifier: govuk-input--width-20
+    id: Some-intro
+  action:
+    label: Continue

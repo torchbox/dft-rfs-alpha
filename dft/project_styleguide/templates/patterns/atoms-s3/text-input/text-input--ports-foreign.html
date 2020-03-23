@@ -1,0 +1,69 @@
+<div class="govuk-form-group">
+  <label class="govuk-label" for="{{ field.id }}">
+    {{ field.label }}
+    {% if field.hint %}<span class="govuk-hint">{{ field.hint }}</span>{% endif %}
+  </label>
+  <input list="{{ field.id }}-list" class="govuk-input {% if field.modifier %}{{ field.modifier }}{% endif %}" id="{{ field.id }}"
+    name="{{ field.id }}" type="text" {% if field.placeholder %}placeholder="{{ field.placeholder }}" {% endif %}>
+
+    <datalist id="{{ field.id }}-list">
+      <option value="Amsterdam">
+      <option value="Antwerp">
+      <option value="Belfast">
+      <option value="Bergen">
+      <option value="Bilbao">
+      <option value="Boulogne">
+      <option value="Brevik">
+      <option value="Caen">
+      <option value="Calais">
+      <option value="Channel Tunnel">
+      <option value="Cherbourg">
+      <option value="Copenhagen">
+      <option value="Cork">
+      <option value="Cuxhaven">
+      <option value="Dieppe">
+      <option value="Dublin">
+      <option value="Dun Laoghaire">
+      <option value="Dunkirk">
+      <option value="Esbjerg">
+      <option value="Europoort">
+      <option value="Gothenburg">
+      <option value="Hamburg">
+      <option value="Hamina">
+      <option value="Hanko">
+      <option value="Haugesund">
+      <option value="Helsinki">
+      <option value="Hook of Holland">
+      <option value="Ijmuiden">
+      <option value="Kotka">
+      <option value="Kristiansand">
+      <option value="Larne">
+      <option value="Le Havre">
+      <option value="Ostend">
+      <option value="Paldiski">
+      <option value="Porto">
+      <option value="Rauma">
+      <option value="Roscoff">
+      <option value="Rosslare">
+      <option value="Rostock">
+      <option value="Rotterdam">
+      <option value="Rouen">
+      <option value="Santander">
+      <option value="Scheveningen">
+      <option value="St Malo">
+      <option value="St Petersburg">
+      <option value="Stavanger">
+      <option value="Turku">
+      <option value="Vlaardingen">
+      <option value="Vlissingen">
+      <option value="Warrenpoint">
+      <option value="Zeebrugge">
+  </datalist>
+</div>
+
+
+
+
+
+
+

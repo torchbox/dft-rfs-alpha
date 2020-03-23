@@ -1,0 +1,10 @@
+context:
+  page:
+    title: 'Thanks'
+    introduction: false
+  panel:
+    title: 'Thank you! The survey<br /> was sent'
+    body: false
+  action:
+    label: Start now
+    href: code.html

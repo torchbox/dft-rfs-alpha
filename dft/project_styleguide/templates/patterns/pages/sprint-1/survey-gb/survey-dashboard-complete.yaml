@@ -1,0 +1,27 @@
+context:
+  page:
+    title: Survey - 18th to 25th Feb '20
+    introduction: false
+    backURL: journeys-complete.html
+    nextURL: thanks.html
+  tasklistOne:
+    options:
+      - { label: 'Name, Telephone, Email', status: completed }
+      - { label: Notifications, status: completed }
+  tasklistTwo:
+    options:
+      - { label: 'Nature of business, Employees, Hirer', status: completed }
+  tasklistThree:
+    options:
+      - { label: KK69 FJU , status: completed }
+  tasklistFour:
+    options:
+      - { label: Monday 18th February - 2 stops, status: completed }
+      - { label: Tuesday 19th February - 2 stops, status: completed }
+      - { label: Wednesday 20th February - 2 stops, status: completed }
+      - { label: Thursday 21st February - 2 stops, status: completed }
+      - { label: Friday 22nd February - 2 stops, status: completed }
+      - { label: Saturday 23rd February - 0 stops, status: completed }
+      - { label: Sunday 24th February - 0 stops, status: completed }
+  action:
+    label: Accept and send

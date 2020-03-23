@@ -1,0 +1,72 @@
+context:
+  page:
+    title: KK69 FJI trips
+    introduction: false
+    body: false
+    backURL: survey-dashboard-complete-trip.html
+    nextURL: survey-dashboard-complete-trip.html
+  summary:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU, editable: false }
+      - { label: 'Vehicle travelled', details: 'Yes', editable: true }
+      - { label: 'Total round trip distance
+            ', details: '2,500 miles', editable: true }
+      - { label: 'Countries travelled through
+            ', details: 'FR, ES', editable: true }
+  outward:
+    options:
+      - {
+          label: 'Date leaving UK',
+          details: Monday 01 March 2020,
+          editable: true,
+        }
+      - {
+          label: 'UK port of departure',
+          details: 'London',
+          editable: true,
+        }
+      - { label: 'Foreign port of arrival', details: 'Calais', editable: true }
+      - { label: 'Empty vehicle', details: 'No', editable: true }
+      - { label: 'Capacity by space', details: 'Full', editable: true }
+      - { label: 'Capacity by weight', details: 'Full', editable: true }
+  return:
+    options:
+      - {
+          label: 'Date returning to UK',
+          details: Sunday 11 March 2020,
+          editable: true,
+        }
+      - {
+          label: 'Foreign port of departure',
+          details: 'Calais',
+          editable: true,
+        }
+      - {
+          label: 'UK port of arrival',
+          details: 'London',
+          editable: true,
+        }
+      - { label: 'Empty vehicle', details: 'Yes', editable: true }
+  consignmentSummary:
+    options:
+      - { label: 'Description of goods', details: 'Bread', editable: true }
+      - { label: 'Dangerous or hazardous
+            ', details: 'No', editable: true }
+      - { label: 'Cargo type', details: 'Palletised goods', editable: true }
+      - { label: 'Cargo weight', details: '10,000kg', editable: true }
+      - {
+        label: 'Place of loading',
+        details: 'London, England',
+        editable: true,
+      }
+      - { label: 'Stop number', details: '1', editable: true }
+      - {
+        label: 'Place of unloading',
+        details: 'Calais, France',
+       editable: true,
+      }
+      - { label: 'Stop number', details: '2', editable: true }
+  action:
+    label: Add another trip
+  actionTwo:
+    label: Continue

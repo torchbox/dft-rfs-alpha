@@ -1,0 +1,23 @@
+context:
+  page:
+    title: Stop summary
+    introduction: false
+    backURL: add-journey-capacity.html
+    nextURL: journeys-complete.html
+  overviewContact:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU, editable: false }
+      - { label: 'Date', details: Monday 18th February 2020, editable: true }
+      - { label: 'Origin', details: BS1 5AP, editable: true }
+      - { label: 'Destination of stop', details: 'OX25 4SA', editable: true }
+      - { label: 'Distance', details: '212 miles', editable: true }
+      - { label: 'Vehicle loaded', details: 'Yes', editable: true }
+      - { label: 'Goods carried', details: 'Fencing Panels', editable: true }
+      - { label: 'Dangerous/Hazardous', details: 'No', editable: true }
+      - { label: 'Cargo type', details: 'SB (Solid Bulk)', editable: true }
+      - { label: 'Cargo weight', details: '2,000kg', editable: true }
+      - { label: 'Full capacity by space', details: 'Yes', editable: true }
+  action:
+    label: Add another stop for Monday
+  actionTwo:
+    label: All stops added

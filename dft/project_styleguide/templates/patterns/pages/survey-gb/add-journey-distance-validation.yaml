@@ -1,0 +1,24 @@
+context:
+  page:
+    title: Distance travelled to this stop
+    introduction: false
+    backURL: add-journey-distance.html
+    nextURL: add-journey-goods.html
+  questionOne:
+    label: 'Distance'
+    id: distance
+    modifier: govuk-input--width-10
+    errormessage: The given distance is too short to travel between BS31 6SA and OX25 4SA.
+    value: 10
+  questionTwo:
+    label: '&nbsp;'
+    id: distance-unit
+    options:
+      - { label: 'Miles', id: distance }
+      - { label: 'Kilometres', id: distance-2 }
+  suggested:
+    title: 'We recognise this stop (BS31 6SA to OX25 4SA), you previously entered:'
+    options:
+      - { title: '201 miles' }
+  action:
+    label: Continue

@@ -1,0 +1,16 @@
+context:
+  page:
+    title: Goods
+    introduction: false
+    body: false
+    backURL: add-journey.html
+    nextURL: add-journey-loaded-pre.html
+  questionOne:
+    label: 'Was the vehicle laden with goods?'
+    id: journey-loaded
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: journey-loaded }
+      - { label: 'No', id: journey-loaded-2 }
+  action:
+    label: Continue

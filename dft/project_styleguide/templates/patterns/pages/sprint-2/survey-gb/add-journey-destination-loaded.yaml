@@ -1,0 +1,15 @@
+context:
+  page:
+    title: Goods
+    introduction: false
+    backURL: add-journey-destination-loaded-pre.html
+    nextURL: add-journey-distance.html
+  questionOne:
+    label: 'Which of these places were the goods being transferred to?'
+    id: journey-transferred-from
+    options:
+      - { label: 'Shipping port or docks', id: journey-transferred-from }
+      - { label: 'Rail siding or terminal', id: journey-transferred-from-2 }
+      - { label: 'Airport', id: journey-transferred-from-3 }
+  action:
+    label: Continue

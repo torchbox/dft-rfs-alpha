@@ -1,0 +1,14 @@
+context:
+  page:
+    title: 'Vehicle details'
+    introduction: false
+    backURL: vehicle-trailer.html
+    nextURL: vehicle-summary.html
+  questionOne:
+    label: 'Was the vehicle being used on a hire and reward basis?'
+    id: vehicle-hire-reward
+    options:
+      - { label: 'Yes', id: vehicle-hire-reward }
+      - { label: 'No', id: vehicle-hire-reward }
+  action:
+    label: Continue

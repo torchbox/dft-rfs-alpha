@@ -1,0 +1,50 @@
+context:
+    page:
+      title: Your International Survey
+      introduction: false
+    overview:
+      options:
+        - { label: 'Survey period', details: '01 March 2020 to 07 March 2020' }
+        - { label: 'Survey deadline', details: '21 March 2020' }
+        - { label: 'Survey submitted', details: '20 March 2020' }
+    contactDetails:
+      options:
+        - { label: 'Name', details: Nicholas Lee }
+        - { label: 'Telephone', details: '07595153834' }
+        - { label: 'Email address', details: 'example@email.com' }
+        - { label: 'Email reminders', details: 'Yes' }
+    businessDetails:
+      options:
+        - { label: 'Nature of business', details: Haulage }
+        - { label: 'Fewer than 10 employees', details: 'Yes' }
+        - {
+          label: 'Estimated number of trips in the next 12 months',
+          details: '112'
+        }
+    vehicleOverview:
+        options:
+            - { label: 'Gross vehicle weight', details: '8,900kg' }
+            - { label: 'Carrying capacity', details: '18,900kg' }
+            - {
+                label: 'Type of vehicle',
+                details: 'Articulated 6x6 (333)'
+                }
+            - { label: 'Trailer', details: 'No' }
+            - { label: 'Hire and reward', details: 'Yes' }
+    tasklistThree:
+      options:
+        - {
+          label: KK69 FJI,
+          details: '1 trip - 4 consignments',
+          editable: true,
+          editLabel: 'view trip',
+          editHref: vehicle-trip-dashboard.html,
+        }
+        - {
+          label: KK69 FJK,
+          details: '1 trip - 8 consignments',
+          editable: true,
+          editLabel: 'view trip',
+          editHref: vehicle-trip-dashboard.html,
+        }
+  

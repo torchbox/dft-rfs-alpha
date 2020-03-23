@@ -1,0 +1,19 @@
+context:
+  page:
+    title: Please state the total round trip distance
+    introduction: false
+    body: false
+    backURL: trip-returning-capacity-weight.html
+    nextURL: trip-countries.html
+  questionOne:
+    label: 'Total round trip distance'
+    id: distance
+    modifier: govuk-input--width-10
+  questionTwo:
+    label: '&nbsp;'
+    id: distance-unit
+    options:
+      - { label: 'Kilometres', id: distance }
+      - { label: 'Miles', id: distance-2 }
+  action:
+    label: Continue

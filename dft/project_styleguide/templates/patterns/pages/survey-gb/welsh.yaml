@@ -1,0 +1,8 @@
+context:
+  no_logout: true;
+  page:
+    title: 'Arolwg Ystadegau Cludo Nwyddau ar y Ffyrdd'
+    introduction: 'I ddefnyddio''r gwasanaeth hwn mae ei angen arnoch chi:'
+  action:
+    label: Dechrau nawr
+    href: code.html

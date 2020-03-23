@@ -1,0 +1,32 @@
+context:
+  page:
+    title: Survey home
+    introduction: false
+    backURL: code.html
+    nextURL: journeys.html
+  overview:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU }
+      - { label: 'Survey period', details: '01 March 2020 to 07 March 2020'}
+  tasklistOne:
+    options:
+      - { label: 'Name, Telephone, Email', status: completed }
+      - { label: Notifications, status: completed }
+  tasklistTwo:
+    options:
+      - { label: 'Nature of business, Employees, Hirer', status: completed }
+  tasklistThree:
+    options:
+      - { label: KK69 FJU , status: completed }
+  tasklistFour:
+    options:
+      - { label: Mon 18th Feb, status: 0 stops }
+      - { label: Tue 19th Feb, status: 0 stops }
+      - { label: Wed 20th Feb, status: 0 stops }
+      - { label: Thu 21st Feb, status: 0 stops }
+      - { label: Fri 22nd Feb, status: 0 stops }
+      - { label: Sat 23rd Feb, status: 0 stops }
+      - { label: Sun 24th Feb, status: 0 stops }
+  action:
+    label: Start adding stops
+    href: "journeys.html"

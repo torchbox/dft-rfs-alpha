@@ -1,0 +1,14 @@
+context:
+  page:
+    title: 'Participation'
+    introduction: false
+    backURL: intent.html
+    nextURL: survey-dashboard.html
+  questionOne:
+    label: 'Is your vehicle (KK69 FJU) on hire during the survey period?'
+    id: intent-hire
+    options:
+      - { label: 'Yes', id: intent-hire }
+      - { label: 'No', id: intent-hire-2, checked: true }
+  action:
+    label: Continue

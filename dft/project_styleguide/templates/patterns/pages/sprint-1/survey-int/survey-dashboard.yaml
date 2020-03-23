@@ -1,0 +1,24 @@
+context:
+  page:
+    title: Survey home
+    introduction: false
+    backURL: code.html
+    nextURL: vehicle-trip-overview.html
+  overview:
+    options:
+      - { label: 'Survey period', details: '01 March 2020 to 07 March 2020'}
+  tasklistOne:
+    options:
+      - { label: 'Name, Telephone, Email', status: completed }
+      - { label: Notifications, status: completed }
+  tasklistTwo:
+    options:
+      - { label: 'Nature of business, Employees, Hirer', status: completed }
+  tasklistThree:
+    options:
+      - { label: KK69 FJU , status: 0 trips }
+      - { label: KK69 FJI , status: 0 trips }
+      - { label: KK69 FJK , status: 0 trips }
+  action:
+    label: Start adding vehicles and trips
+    href: "vehicle-trip-overview.html"

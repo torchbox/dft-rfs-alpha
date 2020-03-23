@@ -1,0 +1,19 @@
+context:
+  page:
+    title: Add consignment
+    introduction: false
+    body: false
+    backURL: consignment-type.html
+    nextURL: consignment-loading.html
+  questionOne:
+    label: 'Cargo weight'
+    id: goods-weight
+    modifier: govuk-input--width-10
+  questionTwo:
+    label: '&nbsp;'
+    id: goods-weight-unit
+    options:
+      - { label: 'Kg', id: goods-weight-unit }
+      - { label: 'lbs', id: goods-weight-unit-2 }
+  action:
+    label: Continue

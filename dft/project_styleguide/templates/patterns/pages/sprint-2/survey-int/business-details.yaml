@@ -1,0 +1,12 @@
+context:
+  page:
+    title: 'Business details'
+    introduction: false
+    backURL: survey-dashboard-complete-vehicle.html
+    nextURL: business-employees.html
+  questionOne:
+    label: 'What is the nature of your business'
+    id: business-nature
+    hint: For example, haulier, electrical goods wholesaler, or furniture manufacturer.
+  action:
+    label: Continue

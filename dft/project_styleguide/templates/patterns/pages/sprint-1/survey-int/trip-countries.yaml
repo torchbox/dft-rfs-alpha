@@ -1,0 +1,14 @@
+context:
+  page:
+    title: Countries travelled through
+    introduction: false
+    body: false
+    backURL: trip-distance.html
+    nextURL: trip-summary.html
+  questionOne:
+    label: "Please state the countries travelled through"
+    hint: 'e.g FR, CH'
+    id: countries-travelled
+    modifier: govuk-input--width-30
+  action:
+    label: Continue

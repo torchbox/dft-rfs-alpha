@@ -1,0 +1,17 @@
+context:
+  no_logout: true;
+  page:
+    title: 'Enter your survey passcode'
+    introduction: "This code is supplied in the letter you've received:"
+    backURL: start.html
+    nextURL: start-summary.html
+  questionOne:
+    label: 'First code'
+    id: part-one
+    modifier: govuk-input--width-5
+  questionTwo:
+    label: 'Second code'
+    id: part-two
+    modifier: govuk-input--width-5
+  action:
+    label: Continue

@@ -1,0 +1,20 @@
+context:
+  page:
+    title: 'Survey contact details'
+    introduction: 'Who should the Department for Transport team contact about the survey?'
+    backURL: start-summary.html
+    nextURL: intent.html
+  questionOne:
+    label: 'Full name'
+    id: contact-name
+    modifier: govuk-input--width-20
+  questionTwo:
+    label: 'Telephone'
+    id: contact-tel
+    modifier: govuk-input--width-10
+  questionThree:
+    label: 'Email address'
+    id: contact-email
+    modifier: govuk-input--width-20
+  action:
+    label: Continue

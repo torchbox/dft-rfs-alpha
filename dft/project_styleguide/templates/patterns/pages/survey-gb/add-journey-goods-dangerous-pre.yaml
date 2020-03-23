@@ -1,0 +1,15 @@
+context:
+  page:
+    title: false
+    introduction: false
+    backURL: add-journey-goods-type.html
+    nextURL: add-journey-goods-dangerous.html
+  questionOne:
+    label: 'Were these dangerous or hazardous goods?'
+    id: goods-danger
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: goods-danger }
+      - { label: 'No', id: goods-danger-2 }
+  action:
+    label: Continue

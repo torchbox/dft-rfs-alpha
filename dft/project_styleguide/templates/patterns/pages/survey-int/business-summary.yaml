@@ -1,0 +1,17 @@
+context:
+  page:
+    title: 'Business details'
+    introduction: false
+    backURL: business-employees.html
+    nextURL: survey-dashboard-complete.html
+  overview:
+    options:
+      - { label: 'Nature of business', details: Haulage, editable: true }
+      - { label: 'Number of employees', details: '51-200', editable: true }
+      - {
+          label: 'Estimated number of trips in the next 12 months',
+          details: '112',
+          editable: true,
+        }
+  action:
+    label: Continue

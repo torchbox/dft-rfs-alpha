@@ -1,0 +1,13 @@
+context:
+  page:
+    title: Foreign port
+    introduction: false
+    backURL: trip-return-date.html
+    nextURL: trip-uk-arrival.html
+  questionOne:
+      label: Foreign port of departure
+      hint: 'e.g Calais'
+      id: foreign-port-arrival
+      modifier: govuk-input--width-30
+  action:
+    label: Continue

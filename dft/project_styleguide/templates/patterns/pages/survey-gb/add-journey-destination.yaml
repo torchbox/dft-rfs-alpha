@@ -1,0 +1,20 @@
+context:
+  page:
+    title: Add a stop for Monday 1 March 2020
+    introduction: false
+    backURL: add-journey-loaded.html
+    nextURL: add-journey-destination-loaded-pre.html
+  questionOne:
+    label: 'Stop location'
+    hint: 'Postcode or place name and county'
+    placeholder: 'e.g LE12 1AA or Loughborough, Leicestershire'
+    id: business-estimate
+    modifier: govuk-input--width-30
+  suggested:
+    title: 'or choose from your recently added stops'
+    options:
+      - { title: 'Loughborough, Leicestershire' }
+      - { title: 'BS31 6SA' }
+      - { title: 'OX25 4SA' }
+  action:
+    label: Continue

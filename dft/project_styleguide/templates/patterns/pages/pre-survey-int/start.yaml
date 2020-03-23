@@ -1,0 +1,8 @@
+context:
+  no_logout: true;
+  page:
+    title: 'Road Freight Statistics Survey'
+    introduction: 'To use this service you need:'
+  action:
+    label: Start now
+    href: code.html

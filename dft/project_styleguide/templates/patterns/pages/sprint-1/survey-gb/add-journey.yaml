@@ -1,0 +1,24 @@
+context:
+  page:
+    title: Add a stop for Monday 18th February 2020
+    introduction: false
+    body: false
+    backURL: add-journey-stops.html
+    nextURL: add-journey-loaded.html
+  questionOne:
+    label: "Where did the vehicle start from?"
+    hint: 'e.g LE12 1AA or Loughborough, Leicestershire'
+    id: business-estimate
+    modifier: govuk-input--width-30
+  questionTwo:
+    label: 'Was the vehicle loaded?'
+    id: journey-loaded
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: journey-loaded }
+      - { label: 'No', id: journey-loaded-2 }
+  help: 
+    label: What is a stop?
+    details: A movement of the vehicle from a specified origin to a specified destination. The vehicle may be either laden or empty and can make one or more stops to either load and / or unload goods.
+  action:
+    label: Continue

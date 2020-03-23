@@ -1,0 +1,18 @@
+context:
+  page:
+    title: 'How much fuel in total was put into this vehicle during the survey week?'
+    introduction: false
+    backURL: vehicle-location.html
+    nextURL: vehicle-hire-reward.html
+  questionOne:
+    label: 'Amount of fuel'
+    id: fuel-amount
+    modifier: govuk-input--width-10
+  questionTwo:
+    label: '&nbsp;'
+    id: fuel-amount-unit
+    options:
+      - { label: 'Litres', id: fuel-amount-unit }
+      - { label: 'Gallons', id: fuel-amount-unit-2 }
+  action:
+    label: Continue

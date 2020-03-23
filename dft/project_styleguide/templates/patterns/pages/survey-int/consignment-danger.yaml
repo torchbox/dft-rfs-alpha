@@ -1,0 +1,16 @@
+context:
+  page:
+    title: false
+    introduction: false
+    body: false
+    backURL: consignment-add.html
+    nextURL: consignment-type.html
+  questionOne:
+    label: 'Were these dangerous or hazardous goods?'
+    id: goods-danger
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: goods-danger }
+      - { label: 'No', id: goods-danger-2 }
+  action:
+    label: Continue

@@ -1,0 +1,80 @@
+{% extends "patterns/base_page.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+<div class="app__width-container">
+    {% include "patterns/atoms/back-link/back-link.html" %}
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html" %}
+
+                <form class="form" action="{{ page.nextURL }}" method="get" novalidate>
+                    {% if page.body %}
+                    <p class="govuk-body govuk-!-margin-bottom-8">{{ page.body }}</p>
+                    {% endif %}
+
+                    {% include "patterns/atoms/summary-list/summary-list.html" with field=overview  %}
+
+
+                    <ol class=" app-task-list">
+                        <li>
+                            <h2 class="app-task-list__section app-task-list__section--with-actions">
+                                KK69 FJU
+                                <div class="app-task-list__actions">
+                                    <a class="govuk-link govuk-body" href="#">
+                                        Remove vehicle
+                                    </a>
+                                    <a class="govuk-link govuk-body" href="#">
+                                        Add trip
+                                    </a>
+                                </div>
+                            </h2>
+
+                            {% include "patterns/atoms/summary-list/summary-list.html" with field=days %}
+
+                        </li>
+                        <li>
+                            <h2 class="app-task-list__section app-task-list__section--with-actions">
+                                KK69 FJI
+                                <div class="app-task-list__actions">
+                                    <a class="govuk-link govuk-body" href="#">
+                                        Remove vehicle
+                                    </a>
+                                    <a class="govuk-link govuk-body" href="#">
+                                        Add trip
+                                    </a>
+                                </div>
+                            </h2>
+                            {% include "patterns/atoms/summary-list/summary-list.html" with field=days %}
+                        </li>
+                        <li>
+                            <h2 class="app-task-list__section app-task-list__section--with-actions">
+                                KK69 FJK
+                                <div class="app-task-list__actions">
+                                    <a class="govuk-link govuk-body" href="#">
+                                        Remove vehicle
+                                    </a>
+                                    <a class="govuk-link govuk-body" href="#">
+                                        Add trip
+                                    </a>
+                                </div>
+                            </h2>
+                            {% include "patterns/atoms/summary-list/summary-list.html" with field=days %}
+                        </li>
+                    </ol>
+
+                    {% include "patterns/atoms/button/button.html" with field=action %}
+                    {% include "patterns/atoms/button/button--secondary.html" with field=actionTwo %}
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

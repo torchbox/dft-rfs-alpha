@@ -1,0 +1,87 @@
+context:
+  page:
+    title: GB Survey home
+    introduction: false
+    backURL: code.html
+    nextURL: add-journey-stops.html
+  overview:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU }
+      - { label: 'Survey period', details: '1 March 2020 to 7 March 2020' }
+      - { label: 'Survey deadline', details: '21 March 2020' }
+      - { label: 'Can fill in the survey', details: 'Yes', editable: true }
+  help:
+    label: What is a stop?
+    details: A movement of the vehicle from a specified origin to a specified destination. The vehicle may be either laden or empty and can make one or more stops to either load and / or unload goods.
+  tasklistOne:
+    options:
+      - { label: 'Name', status: completed }
+      - { label: 'Telephone', status: completed }
+      - { label: 'Email', status: completed }
+      - { label: Notifications, status: completed }
+  tasklistTwo:
+    options:
+      - { label: 'Nature of business', href: business-details.html, status }
+      - { label: 'Employees', status }
+  tasklistThree:
+    options:
+      - {
+          label: 'Weight, capacity and type of vehicle',
+          href: vehicle-details.html,
+          status,
+        }
+      - { label: Trailer, status }
+      - { label: Vehicle location, status }
+      - { label: Fuel use, status }
+      - { label: Hire and reward, status }
+  tasklistFour:
+    options:
+      - {
+          label: Monday 1 Mar 2020,
+          details: no stops,
+          editable: true,
+          editLabel: Add stop,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Tuesday 2 Mar 2020,
+          details: no stops,
+          editable: true,
+          editLabel: Add stop,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Wednesday 3 Mar 2020,
+          details: no stops,
+          editable: true,
+          editLabel: Add stop,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Thursday 4 Mar 2020,
+          details: no stops,
+          editable: true,
+          editLabel: Add stop,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Friday 5 Mar 2020,
+          details: no stops,
+          editable: true,
+          editLabel: Add stop,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Saturday 6 Mar 2020,
+          details: no stops,
+          editable: true,
+          editLabel: Add stop,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Sunday 7 Mar 2020,
+          details: no stops,
+          editable: true,
+          editLabel: Add stop,
+          editHref: add-journey-stops.html,
+        }

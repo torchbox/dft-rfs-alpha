@@ -1,0 +1,10 @@
+Django==2.2.9
+psycopg2==2.7.7
+django-pattern-library==0.2.5
+
+# Production dependencies
+whitenoise[brotli]==4.1.2
+dj-database-url==0.5.0
+
+notifications-python-client==5.5.1
+python-dateutil==2.8.1

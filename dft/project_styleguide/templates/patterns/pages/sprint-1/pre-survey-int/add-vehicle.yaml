@@ -1,0 +1,20 @@
+context:
+  page:
+    title: 'Add Vehicle'
+    introduction: false
+    backURL: vehicle-details.html
+    nextURL: vehicle-summary.html
+  questionOne:
+    label: 'Vehicle registration'
+    id: vehicle-reg
+    modifier: govuk-input--width-10
+  questionTwo:
+    label: 'Does your vehicle have a trailer?'
+    id: trailer
+    options:
+      - { label: 'Yes', id: trailer }
+      - { label: 'No', id: trailer, checked: true }
+  action:
+    label: Continue
+  actionTwo:
+    label: Add another vehicle

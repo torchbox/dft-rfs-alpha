@@ -1,0 +1,40 @@
+{% extends "patterns/base_page.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+<div class="app__width-container">
+        <main class="govuk-main-wrapper">
+            <div class="govuk-grid-row">
+                <div class="govuk-grid-column-two-thirds">
+
+                    <div class="page-heading">
+                        <h1 class="page-heading__heading govuk-heading-xl">Notify Email Integration</h1>
+                        {% if msg %}<p class="page-heading__introduction govuk-body">{{msg}}</p>{% endif %}
+                    </div>
+                {% if form %}
+                    <form class="form" method="post" novalidate>
+
+                        <div class="form__side-by-side">
+                            {% csrf_token %}
+                            {% for field in form %}
+                            <div class="govuk-form-group">
+                                <label class="govuk-label" for="{{ field.name }}_id">
+                                    {{ field.label }}
+                                </label>
+                                <input class="govuk-input govuk-input--width-5" id="{{ field.name }}_id"
+                                  name="{{ field.name }}" type="text">
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                        <button class="govuk-button" data-module="govuk-button">
+                        Send
+                        </button>
+                    </form>
+                {% endif %}
+                </div>
+            </div>
+        </main>
+</div>
+{% endblock %}

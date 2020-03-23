@@ -1,0 +1,11 @@
+context:
+  page:
+    title: "What is the Hiree's email address?"
+    introduction: false
+    backURL: intent-on-hire.html
+    nextURL: presurvey-summary.html
+  questionOne:
+    label: "Hiree's email address"
+    modifier: govuk-input--width-20
+  action:
+    label: Continue

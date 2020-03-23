@@ -1,0 +1,20 @@
+context:
+  page:
+    title: Please check your answers
+    introduction: false
+    backURL: intent-on-hire-address.html
+    nextURL: presurvey-thanks.html
+  overviewContact:
+    options:
+      - { label: 'Name', details: Nicholas Lee, editable: true }
+      - { label: 'Telephone', details: '07595153834', editable: true }
+      - { label: 'Email address', details: 'example@email.com', editable: true }
+      - { label: 'Will complete survey', details: 'No', editable: true }
+      - { label: 'Reason for not completing', details: 'Vehicle on hire', editable: true }
+  overviewHire:
+    options:
+      - { label: 'On hire during survey period', details: 'Yes' }
+      - { label: 'Hiree Full name', details: Nicholas Lee }
+      - { label: 'Hiree Email', details: 'example@email.com'}
+  action:
+    label: Save

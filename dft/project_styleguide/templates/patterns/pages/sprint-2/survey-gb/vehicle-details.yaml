@@ -1,0 +1,18 @@
+context:
+  page:
+    title: 'Vehicle details'
+    introduction: false
+    backURL: survey-dashboard.html
+    nextURL: vehicle-trailer.html
+  overview:
+    options:
+      - { label: 'Registration', details: KK69 FJU }
+      - { label: 'Gross vehicle weight', details: '8,900kg', editable: true }
+      - { label: 'Carrying capacity', details: '18,900kg', editable: true }
+      - {
+          label: 'Type of vehicle',
+          details: 'Articulated 6x6 (333)',
+          editable: true,
+        }
+  action:
+    label: Continue

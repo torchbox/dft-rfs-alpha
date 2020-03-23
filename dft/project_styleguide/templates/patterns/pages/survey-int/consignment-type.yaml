@@ -1,0 +1,28 @@
+context:
+  page:
+    title: false
+    introduction: false
+    body: false
+    backURL: consignment-danger.html
+    nextURL: consignment-weight.html
+  questionOne:
+    label: 'Cargo type'
+    id: goods-type
+    modifier: govuk-radios--small
+    options:
+      - { label: 'Liquid Bulk', id: goods-type }
+      - { label: 'Solid Bulk', id: goods-type-2 }
+      - { label: 'Large Freight Containers, incl. ISO
+            Containers', id: goods-type-3 }
+      - { label: 'Other Freight Containers, including
+            Stillage’s', id: goods-type-4 }
+      - { label: 'Palletised Goods', id: goods-type-5 }
+      - { label: 'Pre Slung Goods', id: goods-type-6 }
+      - { label: 'No Packaging and other mobile units
+            e.g. Livestock, Cars, Plant', id: goods-type-7 }
+      - { label: 'Roll Cages and other mobile units', id: goods-type-8 }
+      - { label: 'Other Cargo Types including Swap
+            Bodies, Boxes, Crates and Cylinders or
+            mixed consignments', id: goods-type-9 }
+  action:
+    label: Continue

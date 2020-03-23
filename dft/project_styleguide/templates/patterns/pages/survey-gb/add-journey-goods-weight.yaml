@@ -1,0 +1,18 @@
+context:
+  page:
+    title: What was the weight of your cargo?
+    introduction: false
+    backURL: add-journey-goods-dangerous.html
+    nextURL: add-journey-capacity.html
+  questionOne:
+    label: 'Weight of cargo'
+    id: goods-weight
+    modifier: govuk-input--width-10
+  questionTwo:
+    label: '&nbsp;'
+    id: goods-weight-unit
+    options:
+      - { label: 'Kg', id: goods-weight-unit }
+      - { label: 'lbs', id: goods-weight-unit-2 }
+  action:
+    label: Continue

@@ -1,0 +1,13 @@
+context:
+  page:
+    title: Which foreign port did the vehicle arrive at?
+    introduction: false
+    backURL: trip-uk-departure.html
+    nextURL: trip-leaving-capacity.html
+  questionOne:
+    label: Foreign port of arrival
+    hint: 'e.g Calais'
+    id: foreign-port-arrival
+    modifier: govuk-input--width-30
+  action:
+    label: Continue

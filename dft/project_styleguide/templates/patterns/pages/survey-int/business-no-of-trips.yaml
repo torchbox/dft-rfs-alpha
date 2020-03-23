@@ -1,0 +1,12 @@
+context:
+  page:
+    title: 'Please estimate the number of international trips that will be made by your firm in the next 12 months'
+    introduction: false
+    backURL: business-employees.html
+    nextURL: business-summary.html
+  questionOne:
+    label: 'Number of international trips'
+    id: business-estimate
+    modifier: govuk-input--width-10
+  action:
+    label: Continue

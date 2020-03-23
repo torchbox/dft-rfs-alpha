@@ -1,0 +1,11 @@
+context:
+  page:
+    title: When did the vehicle return to the UK for this trip?
+    introduction: false
+    backURL: trip-leaving-capacity-weight.html
+    nextURL: trip-foreign-departure.html
+  questionOne:
+    label: 'Date returned to UK'
+    id: trip-return-date
+  action:
+    label: Continue

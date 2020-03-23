@@ -1,0 +1,16 @@
+context:
+  page:
+    title: Vehicle capacity
+    introduction: false
+    backURL: trip-uk-arrival.html
+    nextURL: trip-distance.html
+  questionOne:
+    label: 'On returning to the UK was your vehicle'
+    id: journey-transferred-from
+    modifier: govuk-radios--inline
+    options:
+      - { label: Carrying its full capacity by space, id: journey-transferred-from }
+      - { label: Carrying its full capacity by weight, id: journey-transferred-from-2 }
+      - { label: 'Empty', id: journey-transferred-from-3 }
+  action:
+    label: Continue

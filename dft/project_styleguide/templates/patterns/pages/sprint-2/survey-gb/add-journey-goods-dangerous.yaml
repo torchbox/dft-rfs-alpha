@@ -1,0 +1,29 @@
+context:
+  page:
+    title: Goods
+    introduction: false
+    backURL: add-journey-goods-dangerous-pre.html
+    nextURL: add-journey-goods-type.html
+  questionOne:
+    label: 'Type of dangerous or hazardous goods'
+    id: goods-danger-type
+    modifier: govuk-radios--small
+    options:
+      - { label: 'Explosive', id: goods-danger-type }
+      - { label: 'Flammable gas', id: goods-danger-type-2 }
+      - { label: 'Non-flammable, non-toxic gas', id: goods-danger-type-3 }
+      - { label: 'Toxic gas', id: goods-danger-type-4 }
+      - { label: 'Flammable liquid', id: goods-danger-type-5 }
+      - { label: 'Flammable solid', id: goods-danger-type-6 }
+      - { label: 'Spontaneously combustible substance', id: goods-danger-type-7 }
+      - { label: 'Substance which, in contact with water,
+      emits flammable gas', id: goods-danger-type-8 }
+      - { label: 'Oxidising substance', id: goods-danger-type-9 }
+      - { label: 'Organic peroxide', id: goods-danger-type-10 }
+      - { label: 'Toxic substance', id: goods-danger-type-11 }
+      - { label: 'Infectious substance', id: goods-danger-type-12 }
+      - { label: 'Radioactive material', id: goods-danger-type-13 }
+      - { label: 'Corrosive substance', id: goods-danger-type-14 }
+      - { label: 'Miscellaneous dangerous goods', id: goods-danger-type-15 }
+  action:
+    label: Continue

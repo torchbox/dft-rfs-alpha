@@ -1,0 +1,57 @@
+{% extends "patterns/base_page.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+<div class="app__width-container">
+    {% include "patterns/atoms/back-link/back-link.html" %}
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html" %}
+
+                {% if page.body %}
+                <p class="govuk-body govuk-!-margin-bottom-8">{{ page.body }}</p>
+                {% endif %}
+
+                {% include "patterns/atoms/summary-list/summary-list.html" with field=overview  %}
+
+                <ol class=" app-task-list">
+                    <li>
+                        <h2 class="app-task-list__section">
+                            <span class="app-task-list__section-number">1. </span> Stops
+                        </h2>
+                        {% include "patterns/molecules/task-list-items/task-list-items.html" with field=tasklistFour %}
+                    </li>
+                    <li>
+                        <h2 class="app-task-list__section">
+                            <span class="app-task-list__section-number">2. </span> Contact details
+                        </h2>
+                        {% include "patterns/molecules/task-list-items/task-list-items.html" with field=tasklistOne %}
+                    </li>
+                    <li>
+                        <h2 class="app-task-list__section">
+                            <span class="app-task-list__section-number">3. </span> Business details
+                        </h2>
+                        {% include "patterns/molecules/task-list-items/task-list-items.html" with field=tasklistTwo %}
+                    </li>
+                    <li>
+                        <h2 class="app-task-list__section">
+                            <span class="app-task-list__section-number">4. </span> Vehicle details
+                        </h2>
+                        {% include "patterns/molecules/task-list-items/task-list-items.html" with field=tasklistThree %}
+                    </li>
+
+                </ol>
+
+                {% include "patterns/atoms/button/button--start.html" with field=action %}
+
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

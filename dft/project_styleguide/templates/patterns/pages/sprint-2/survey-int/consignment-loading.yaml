@@ -1,0 +1,18 @@
+context:
+  page:
+    title: Add consignment
+    introduction: false
+    body: false
+    backURL: consignment-weight.html
+    nextURL: consignment-unloading.html
+  questionOne:
+    label: 'Place of loading'
+    hint: 'For example, London, England'
+    id: goods-loading-place
+    modifier: govuk-input--width-20
+  questionTwo:
+    label: 'Stop number'
+    id: goods-loading-stop
+    modifier: govuk-input--width-5
+  action:
+    label: Continue

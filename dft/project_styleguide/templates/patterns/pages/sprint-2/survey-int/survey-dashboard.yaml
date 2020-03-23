@@ -1,0 +1,31 @@
+context:
+  page:
+    title: International Survey home
+    introduction: false
+    backURL: code.html
+    nextURL: vehicle-add.html
+  overview:
+    options:
+      - { label: 'Survey period', details: '01 March 2020 to 07 March 2020' }
+      - { label: 'Survey deadline', details: '21 March 2020' }
+      - { label: 'Can fill in the survey', details: 'Yes', editable: true }
+  tasklistOne:
+    options:
+      - { label: 'Name', status: completed }
+      - { label: 'Telephone', status: completed }
+      - { label: 'Email', status: completed }
+      - { label: Notifications, status: completed }
+  tasklistTwo:
+    options:
+      - { label: 'Nature of business', href: business-details.html, status }
+      - { label: 'Employees', status }
+      - { label: 'Total estimated trips', status }
+  tasklistThree:
+    options:
+      - {
+          label: No vehicles added,
+          details: '',
+          editable: true,
+          editLabel: Add vehicle,
+          editHref: vehicle-add.html,
+        }

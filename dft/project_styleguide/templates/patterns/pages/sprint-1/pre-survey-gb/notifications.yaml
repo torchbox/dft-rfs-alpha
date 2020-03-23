@@ -1,0 +1,14 @@
+context:
+  page:
+    title: 'Survey reminders'
+    introduction: false
+    backURL: contact-details.html
+    nextURL: business-details.html
+  questionOne:
+    label: 'Do you want a reminder email when your survey starts?'
+    id: notifications
+    options:
+      - { label: 'Yes', id: notifications, checked: true }
+      - { label: 'No', id: notifications }
+  action:
+    label: Continue

@@ -1,0 +1,11 @@
+context:
+  page:
+    title: When did the vehicle leave the UK for this trip?
+    introduction: false
+    backURL: vehicles-overview.html
+    nextURL: trip-uk-departure.html
+  questionOne:
+    label: 'Date vehicle left UK'
+    id: trip-departure-date
+  action:
+    label: Continue

@@ -1,0 +1,101 @@
+context:
+  page:
+    title: KK69 FJI trips
+    introduction: false
+    body: false
+    nextURL: read-only-summary.html
+    backURL: read-only-summary.html
+  summary:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU }
+      - { label: 'Vehicle travelled', details: 'Yes' }
+      - { label: 'Total round trip distance
+            ', details: '2,500 miles' }
+      - { label: 'Countries travelled through
+            ', details: 'FR, ES' }
+  outward:
+    options:
+      - {
+          label: 'Date leaving UK',
+          details: Monday 01 March 2020
+        }
+      - {
+          label: 'UK port of departure',
+          details: 'London'
+        }
+      - { label: 'Foreign port of arrival', details: 'Calais' }
+      - { label: 'Capacity by space', details: 'Full' }
+      - { label: 'Capacity by weight', details: 'Full' }
+  return:
+    options:
+      - {
+          label: 'Date returning to UK',
+          details: Sunday 11 March 2020
+        }
+      - {
+          label: 'Foreign port of departure',
+          details: 'Calais'
+        }
+      - {
+          label: 'UK port of arrival',
+          details: 'London'
+        }
+      - { label: 'Empty vehicle', details: 'Yes' }
+  consignmentSummary:
+    options:
+      - { label: 'Cargo type', details: 'Palletised goods' }
+      - { label: 'Cargo weight', details: '10,000kg' }
+      - {
+        label: 'Place of loading',
+        details: 'London, England'
+      }
+      - { label: 'Stop number', details: '1' }
+      - {
+        label: 'Place of unloading',
+        details: 'Calais, France'
+      }
+      - { label: 'Stop number', details: '2' }
+  consignmentSummaryTwo:
+    options:
+      - { label: 'Cargo type', details: 'No Packaging and other mobile units e.g. Livestock, Cars, Plant' }
+      - { label: 'Cargo weight', details: '4,000kg' }
+      - {
+        label: 'Place of loading',
+        details: 'London, England'
+      }
+      - { label: 'Stop number', details: '3' }
+      - {
+        label: 'Place of unloading',
+        details: 'Calais, France'
+      }
+      - { label: 'Stop number', details: '4' }
+  consignmentSummaryThree:
+    options:
+      - { label: 'Cargo type', details: 'Palletised goods' }
+      - { label: 'Cargo weight', details: '10,000kg' }
+      - {
+        label: 'Place of loading',
+        details: 'London, England'
+      }
+      - { label: 'Stop number', details: '5' }
+      - {
+        label: 'Place of unloading',
+        details: 'Calais, France'
+      }
+      - { label: 'Stop number', details: '6' }
+  consignmentSummaryFour:
+    options:
+      - { label: 'Cargo type', details: 'Palletised goods' }
+      - { label: 'Cargo weight', details: '10,000kg' }
+      - {
+        label: 'Place of loading',
+        details: 'London, England'
+      }
+      - { label: 'Stop number', details: '7' }
+      - {
+        label: 'Place of unloading',
+        details: 'Calais, France'
+      }
+      - { label: 'Stop number', details: '8' }
+  action:
+    label: Back to summary

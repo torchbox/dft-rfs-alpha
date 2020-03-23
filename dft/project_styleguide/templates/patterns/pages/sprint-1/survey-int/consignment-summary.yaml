@@ -1,0 +1,28 @@
+context:
+  page:
+    title: Consignment summary
+    introduction: false
+    body: false
+    backURL: consignment-unloading.html
+    nextURL: vehicle-trip-overview-complete.html
+  summary:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU, editable: false }
+      - { label: 'Date', details: Monday 18th February 2020, editable: true }
+      - { label: 'Description of goods', details: 'Bread', editable: true }
+      - { label: 'Dangerous or hazardous
+      ', details: 'No', editable: true }
+      - { label: 'Cargo type', details: 'Palletised goods', editable: true }
+      - { label: 'Cargo weight', details: '10,000kg', editable: true }
+  loading:
+    options:
+      - { label: 'Place of loading', details: 'London, England', editable: true }
+      - { label: 'Stop number', details: '1', editable: true }
+  unloading:
+    options:
+      - { label: 'Place of unloading', details: 'Calais, France', editable: true }
+      - { label: 'Stop number', details: '2', editable: true }
+  action:
+    label: Add another consignment
+  actionTwo:
+    label: Review vehicles and trips

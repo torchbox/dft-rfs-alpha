@@ -1,0 +1,42 @@
+context:
+  page:
+    title: GB Survey home
+    introduction: false
+    backURL: journeys-complete.html
+    nextURL: thanks.html
+  overview:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU }
+      - { label: 'Survey period', details: '01 March 2020 to 07 March 2020'}
+      - { label: 'Survey deadline', details: '21 March 2020'}
+  help: 
+    label: What is a stop?
+    details: A movement of the vehicle from a specified origin to a specified destination. The vehicle may be either laden or empty and can make one or more stops to either load and / or unload goods.
+  tasklistOne:
+    options:
+      - { label: 'Name', status: completed }
+      - { label: 'Telephone', status: completed }
+      - { label: 'Email', status: completed }
+      - { label: Notifications, status: completed }
+  tasklistTwo:
+    options:
+      - { label: 'Nature of business', href: business-details.html, status: }
+      - { label: 'Employees', status:  }
+  tasklistThree:
+    options:
+      - { label: 'Weight, capacity and type of vehicle', href: vehicle-details.html, status: completed }
+      - { label: Trailer, status: completed }
+      - { label: Vehicle location, status: completed }
+      - { label: Fuel use, status: completed }
+      - { label: Hire and reward, status: completed }
+  tasklistFour:
+    options:
+      - { label: Monday 18th February 2020, details: 3 stops, editable: true, editHref: add-journey-summary.html }
+      - { label: Tuesday 19th February 2020, details: 2 stops, editable: true,  editHref: add-journey-summary.html }
+      - { label: Wednesday 20th February 2020, details: 2 stops, editable: true, editHref: add-journey-summary.html }
+      - { label: Thursday 21st February 2020, details: 2 stops, editable: true, editHref: add-journey-summary.html }
+      - { label: Friday 22nd February 2020, details: 2 stops, editable: true, editHref: add-journey-summary.html }
+      - { label: Saturday 23rd February 2020, details: no stops, editable: true, editLabel: Add stop, editHref: add-journey-stops.html }
+      - { label: Sunday 24th February 2020, details: no stops, editable: true, editLabel: Add stop, editHref: add-journey-stops.html }
+  action:
+    label: Accept and send

@@ -1,0 +1,22 @@
+context:
+  page:
+    title: Add a stop for Monday 18th February 2020
+    introduction: false
+    backURL: add-journey.html
+    nextURL: add-journey-distance.html
+  questionOne:
+    label: 'Where did the vehicle stop to load and / or reload?'
+    hint: 'Postcode or place name and county'
+    placeholder: 'e.g LE12 1AA or Loughborough, Leicestershire'
+    id: business-estimate
+    modifier: govuk-input--width-30
+  questionTwo:
+    label: 'Are these goods being transferred to'
+    id: journey-transferred-from
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Shipping port or docks', id: journey-transferred-from }
+      - { label: 'Rail siding or terminal', id: journey-transferred-from-2 }
+      - { label: 'Airport', id: journey-transferred-from-3 }
+  action:
+    label: Continue

@@ -1,0 +1,14 @@
+context:
+  page:
+    title: Add consignment
+    introduction: false
+    body: false
+    backURL: trip-countries.html
+    nextURL: consignment-danger.html
+  questionOne:
+    label: 'Basic description of goods carried'
+    hint: 'For example, bread, furniture, household goods'
+    id: goods-description
+    modifier: govuk-input--width-30
+  action:
+    label: Continue

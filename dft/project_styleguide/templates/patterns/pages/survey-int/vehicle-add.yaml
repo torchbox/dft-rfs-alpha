@@ -1,0 +1,13 @@
+context:
+  page:
+    title: "What is the vehicle's registation mark"
+    introduction: false
+    backURL: survey-dashboard.html
+    nextURL: vehicle-type.html
+  questionOne:
+    label: 'Registration number (number plate)'
+    hint: 'For example, BB69123'
+    modifier: govuk-input--width-20
+    id: vehicle-registration-mark
+  action:
+    label: Continue

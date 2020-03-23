@@ -1,0 +1,14 @@
+context:
+  page:
+    title: 'Acknowledge notification'
+    introduction: false
+    backURL: intent.html
+    nextURL: notifications.html
+  questionOne:
+    label: 'Will your vehicle be on hire during the survey period?'
+    id: intent-hire
+    options:
+      - { label: 'Yes', id: intent-hire }
+      - { label: 'No', id: intent-hire-2, checked: true }
+  action:
+    label: Continue

@@ -1,0 +1,58 @@
+<div class="govuk-form-group">
+  <label class="govuk-label" for="{{ field.id }}">
+    {{ field.label }}
+    {% if field.hint %}<span class="govuk-hint">{{ field.hint }}</span>{% endif %}
+  </label>
+  <input list="{{ field.id }}-list" class="govuk-input {% if field.modifier %}{{ field.modifier }}{% endif %}" id="{{ field.id }}"
+    name="{{ field.id }}" type="text" {% if field.placeholder %}placeholder="{{ field.placeholder }}" {% endif %}>
+
+    <datalist id="{{ field.id }}-list">
+      <option value="Aberdeen">
+      <option value="Bristol">
+      <option value="Cairnryan">
+      <option value="Channel Tunnel">
+      <option value="Chatham">
+      <option value="Dagenham">
+      <option value="Dartford">
+      <option value="Dover">
+      <option value="Felixstowe">
+      <option value="Fishguard">
+      <option value="Fleetwood">
+      <option value="Folkestone">
+      <option value="Grimsby">
+      <option value="Harwich">
+      <option value="Heysham">
+      <option value="Holyhead">
+      <option value="Hull">
+      <option value="Immingham">
+      <option value="Ipswich">
+      <option value="Killingholme">
+      <option value="Liverpool">
+      <option value="Mostyn">
+      <option value="Newcastle">
+      <option value="Newhaven">
+      <option value="Pembroke">
+      <option value="Plymouth">
+      <option value="Poole">
+      <option value="Portsmouth">
+      <option value="Purfleet">
+      <option value="Ramsgate">
+      <option value="Rosyth">
+      <option value="Sheerness">
+      <option value="Southampton">
+      <option value="Stranraer">
+      <option value="Swansea">
+      <option value="Teesport">
+      <option value="Tilbury">
+      <option value="Troon">
+      <option value="Tynemouth">
+      <option value="Weymouth">
+  </datalist>
+</div>
+
+
+
+
+
+
+

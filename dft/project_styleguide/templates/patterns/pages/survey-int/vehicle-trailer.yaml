@@ -1,0 +1,22 @@
+context:
+  page:
+    title: false
+    introduction: false
+    backURL: vehicle-type.html
+    nextURL: vehicle-weight.html
+  questionOne:
+    label: 'What type of trailer does your vehicle have?'
+    id: trailer
+    options:
+      - { label: 'Flat/drop sided', id: trailer }
+      - { label: 'Box/Non specialised', id: trailer-2 }
+      - { label: 'Temperature controlled', id: trailer-3 }
+      - { label: 'Curtain sided', id: trailer-4 }
+      - { label: 'Liquid tanker', id: trailer-5 }
+      - { label: 'Solid bulk tanker', id: trailer-6 }
+      - { label: 'Livestock carrier', id: trailer-7 }
+      - { label: 'Car transporter', id: trailer-8 }
+      - { label: 'Tipper', id: trailer-9 }
+      - { label: 'Other', id: trailer-10 }
+  action:
+    label: Continue

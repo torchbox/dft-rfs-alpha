@@ -1,0 +1,34 @@
+context:
+  page:
+    title: Please check your answers
+    introduction: false
+    backURL: vehicle-details.html
+    nextURL: presurvey-thanks.html
+  overviewContact:
+    options:
+      - { label: 'Name', details: Nicholas Lee, editable: true }
+      - { label: 'Telephone', details: '07595153834', editable: true }
+      - { label: 'Email address', details: 'example@email.com', editable: true }
+      - {
+          label: 'Email reminders',
+          details: 'Yes',
+          editable: true,
+        }
+  overviewBusiness:
+    options:
+      - { label: 'Nature of your business', details: Haulage }
+      - { label: 'Fewer than 10 people in total nationally?', details: 'No', editable: true }
+      - { label: 'Does your firm ever hire out vehicles', details: 'No', editable: true }
+  overviewVehicle:
+    options:
+      - { label: 'Registration', details: KK69 FJU }
+      - { label: 'Gross vehicle weight', details: '8,900kg', editable: true }
+      - { label: 'Carrying capacity', details: '18,900kg', editable: true }
+      - {
+          label: 'Type of vehicle',
+          details: 'Articulated 6x6 (333)',
+          editable: true,
+        }
+      - { label: 'Trailer', details: 'No', editable: true }
+  action:
+    label: Save

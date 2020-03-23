@@ -1,0 +1,12 @@
+context:
+  page:
+    title: 'Business details'
+    introduction: false
+    backURL: business-details.html
+    nextURL: business-summary.html
+  questionOne:
+    label: 'How many people does your firm employ in the UK?'
+    id: business-employ
+    modifier: govuk-input--width-5
+  action:
+    label: Continue

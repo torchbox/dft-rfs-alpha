@@ -1,0 +1,19 @@
+context:
+  page:
+    title: "What is the vehicle's carrying capacity?"
+    introduction: false
+    backURL: vehicle-weight.html
+    nextURL: vehicle-hire-reward.html
+  questionOne:
+    label: "Vehicle's carrying capacity"
+    hint: 'Total weight of cargo that can be carried'
+    modifier: govuk-input--width-20
+    id: vehicle-capacity
+  questionTwo:
+    label: '&nbsp;'
+    id: vehicle-weight-unit
+    options:
+      - { label: 'Kg', id: vehicle-capacity-unit }
+      - { label: 'lbs', id: vehicle-capacity-unit-2 }
+  action:
+    label: Continue

@@ -1,0 +1,15 @@
+context:
+  page:
+    title: 'Participation'
+    introduction: false
+    backURL: code.html
+    nextURL: intent-hire.html
+  questionOne:
+    label: 'Are you able to complete this survey?'
+    hint: "For example, you may no longer own this vehicle (KK69 FJU)."
+    id: able-to-complete
+    options:
+      - { label: 'Yes', id: able-to-complete, checked: true }
+      - { label: 'No', id: able-to-complete-2 }
+  action:
+    label: Continue

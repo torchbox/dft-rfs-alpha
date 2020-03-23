@@ -1,0 +1,41 @@
+context:
+  page:
+    title: Stops for KK69 FJU
+    introduction: false
+    backURL: add-journey-summary.html
+    nextURL: survey-dashboard-complete.html
+  dayOne:
+    options:
+      - { label: BS1 5AP to OX25 4SA, editable: true }
+      - { label: OX25 4SA to BS31 6SA, editable: true   }
+      - { label: BS31 6SA to BS1 5AP, editable: true   }
+      - { label: '3 stops', editable: true, editLabel: Add another stop }
+  dayTwo:
+    options:
+      - { label: 'Loughborough to Lancaster', editable: true }
+      - { label: 'Lancaster to Loughborough', editable: true  }
+      - { label: '2 stops', editable: true, editLabel: Add another stop }
+  dayThree:
+    options:
+      - { label: 'Loughborough to Lancaster', editable: true }
+      - { label: 'Lancaster to Loughborough', editable: true  }
+      - { label: '2 stops', editable: true, editLabel: Add another stop }
+  dayFour:
+    options:
+      - { label: 'Loughborough to Lancaster', editable: true }
+      - { label: 'Lancaster to Loughborough', editable: true  }
+      - { label: '2 stops', editable: true, editLabel: Add another stop }
+  dayFive:
+    options:
+      - { label: 'Loughborough to Lancaster', editable: true }
+      - { label: 'Lancaster to Loughborough', editable: true  }
+      - { label: '', editable: true, editLabel: Add another stop }
+  daySix:
+    options:
+      - { label: 'No stops', details: '', editable: true, editLabel: Add a stop }
+  daySeven:
+    options:
+      - { label: 'No stops', details: '', editable: true, editLabel: Add a stop }
+  action:
+    label: Continue
+    href: "add-journey.html"

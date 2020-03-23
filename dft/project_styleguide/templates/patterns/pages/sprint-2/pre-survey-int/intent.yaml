@@ -1,0 +1,15 @@
+context:
+  page:
+    title: 'Acknowledge notification'
+    introduction: false
+    backURL: contact-details.html
+    nextURL: notifications.html
+  questionOne:
+    label: 'Will you be able to complete this survey?'
+    hint: 'For example, you may no longer carry out any international road haulage activities.'
+    id: haulage-activites
+    options:
+      - { label: 'Yes', id: haulage-activites, checked: true }
+      - { label: 'No', id: haulage-activites-2 }
+  action:
+    label: Continue

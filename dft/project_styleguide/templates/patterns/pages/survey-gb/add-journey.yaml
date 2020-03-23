@@ -1,0 +1,20 @@
+context:
+  page:
+    title: Where did the vehicle start from on Monday 1 March 2020?
+    introduction: false
+    body: false
+    backURL: add-journey-stops.html
+    nextURL: add-journey-laden.html
+  questionOne:
+    label: 'Start location'
+    hint: 'e.g LE12 1AA or Loughborough, Leicestershire'
+    id: stop-origin
+    modifier: govuk-input--width-30
+  suggested:
+    title: 'or choose from your recently added locations'
+    options:
+      - { title: 'Loughborough, Leicestershire' }
+      - { title: 'BS31 6SA' }
+      - { title: 'OX25 4SA' }
+  action:
+    label: Continue

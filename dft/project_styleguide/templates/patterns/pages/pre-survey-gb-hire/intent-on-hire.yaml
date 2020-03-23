@@ -1,0 +1,10 @@
+context:
+  page:
+    title: "What is the Hiree's full name?"
+    introduction: 'It is still your responsibility to fill out the survey, however we can contact the person you have hired the vehicle to, and ask them to fill out the details'
+    backURL: intent-why.html
+    nextURL: intent-on-hire-address.html
+  questionOne:
+    label: "Hiree's full name"
+  action:
+    label: Continue

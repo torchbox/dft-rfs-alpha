@@ -1,0 +1,35 @@
+context:
+  page:
+    title: Stop 1 summary
+    introduction: BS31 6SA to OX25 4SA
+    backURL: add-journey-capacity.html
+    nextURL: journeys-complete.html
+  overviewContact:
+    options:
+      - { label: 'Vehicle registration', details: KK69 FJU, editable: false }
+      - { label: 'Date', details: Monday 1 March 2020, editable: true }
+      - { label: 'Origin', details: BS31 6SA, editable: true }
+      - { label: 'Destination of stop', details: 'OX25 4SA', editable: true }
+      - { label: 'Distance', details: '212 miles', editable: true }
+      - { label: 'Vehicle laden', details: 'Yes', editable: true }
+      - { label: 'Goods carried', details: 'Fencing Panels', editable: true }
+      - { label: 'Goods transfered from', details: 'Airport', editable: true }
+      - {
+          label: 'Goods transfered to',
+          details: 'Rail siding or terminal',
+          editable: true,
+        }
+      - {
+          label: 'Dangerous or hazardous',
+          details: 'Toxic gas',
+          editable: true,
+        }
+      - { label: 'Cargo type', details: 'SB (Solid Bulk)', editable: true }
+      - { label: 'Cargo weight', details: '2,000kg', editable: true }
+      - { label: 'Full capacity by space', details: 'Yes', editable: true }
+  action:
+    label: Add another stop for Monday
+  actionTwo:
+    label: All stops added for Monday
+  actionThree:
+    label: Remove stop

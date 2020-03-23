@@ -1,0 +1,15 @@
+context:
+  page:
+    title: Capacity
+    introduction: false
+    backURL: add-journey-goods-weight.html
+    nextURL: add-journey-summary.html
+  questionOne:
+    label: "Was your vehicle carrying its full capacity by space?"
+    id: capacity
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: capacity }
+      - { label: 'No', id: capacity-2 }
+  action:
+    label: Continue

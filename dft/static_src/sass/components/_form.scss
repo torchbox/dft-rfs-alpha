@@ -1,0 +1,12 @@
+.form {
+    &__side-by-side {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+
+        .govuk-form-group {
+            margin-right: $gutter;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{% extends "patterns/base_page.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+<div class="app__width-container">
+    {% include "patterns/atoms/back-link/back-link.html" %}
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html"  %}
+
+                <form class="form" action="{{ page.nextURL }}" method="get" novalidate>
+                    <h2 class="govuk-heading-m">Contact details</h2>
+                    {% include "patterns/atoms/summary-list/summary-list.html" with field=overviewContact  %}
+
+                    <h2 class="govuk-heading-m">Save your answers</h2>
+
+                    <p class="govuk-body">Your answers will be saved and ready for when you start the survey. You can
+                        change them at any time before the end of the survey.</p>
+                    {% include "patterns/atoms/button/button.html" with field=action %}
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

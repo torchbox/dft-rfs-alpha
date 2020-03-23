@@ -1,0 +1,20 @@
+context:
+  page:
+    title: false
+    introduction: false
+    backURL: intent.html
+    nextURL: intent-on-hire.html
+  questionOne:
+    label: 'Reason you are not able to complete the survey'
+    hint: 'We may need to ask you to supply evidence at the end of the survey period'
+    id: reason-why
+    options:
+      - { label: 'Scrapped or stolen', id: reason-why }
+      - { label: 'Vehicle sold', id: reason-why-2 }
+      - { label: 'Vehicle on hire', id: reason-why-3 }
+      - {
+          label: "Vehicle won't be in use during survey period",
+          id: reason-why-4,
+        }
+  action:
+    label: Continue

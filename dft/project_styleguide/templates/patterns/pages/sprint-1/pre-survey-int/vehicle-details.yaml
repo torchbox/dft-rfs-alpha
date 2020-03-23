@@ -1,0 +1,11 @@
+context:
+  page:
+    title: 'Your Vehicles'
+    introduction: "You can start to add vehicles you expect to leave the UK during the survey period: <b>1st March to 8th March 2020</b>."
+    body: "You can change your vehicles once the survey period starts."
+    backURL: business-details.html
+    nextURL: add-vehicle.html
+  action:
+    label: Add a vehicle
+  actionTwo:
+    label: Add vehicles later

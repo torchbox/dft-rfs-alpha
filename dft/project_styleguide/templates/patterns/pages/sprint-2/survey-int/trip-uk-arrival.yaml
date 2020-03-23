@@ -1,0 +1,14 @@
+context:
+  page:
+    title: UK arrival
+    introduction: false
+    body: false
+    backURL: trip-foreign-departure.html
+    nextURL: trip-returning-capacity.html
+  questionOne:
+    label: 'UK port of arrival'
+    hint: 'e.g London'
+    id: business-estimate
+    modifier: govuk-input--width-30
+  action:
+    label: Continue

@@ -1,0 +1,25 @@
+{% extends "patterns/base_page_v3.html" %}
+
+
+
+{% block content %}
+<div class="app__width-container">
+    {% include "patterns/atoms-s3/back-link/back-link.html" %}
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html"  %}
+
+                <form class="form" action="{{ page.nextURL }}" method="get" novalidate>
+                    {% include "patterns/atoms-s3/radios/radios.html" with field=questionOne %}
+                    {% include "patterns/atoms-s3/button/button.html" with field=action %}
+                </form>
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "patterns/base_page.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+<div class="app__width-container">
+    {% include "patterns/atoms/back-link/back-link.html" %}
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html" %}
+
+                {% if page.body %}
+                <p class="govuk-body govuk-!-margin-bottom-8">{{ page.body }}</p>
+                {% endif %}
+
+                <form class="form" action="{{ page.nextURL }}" method="get" novalidate>
+                    {% include "patterns/atoms/text-input/text-input.html" with field=questionOne %}
+                    {% include "patterns/atoms/button/button.html" with field=action %}
+                </form>
+
+
+
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

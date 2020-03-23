@@ -1,0 +1,18 @@
+context:
+  page:
+    title: Goods
+    introduction: false
+    backURL: add-journey-goods-type.html
+    nextURL: add-journey-capacity.html
+  questionOne:
+    label: 'Cargo weight'
+    id: goods-weight
+    modifier: govuk-input--width-10
+  questionTwo:
+    label: '&nbsp;'
+    id: goods-weight-unit
+    options:
+      - { label: 'Kg', id: goods-weight-unit }
+      - { label: 'lbs', id: goods-weight-unit-2 }
+  action:
+    label: Continue

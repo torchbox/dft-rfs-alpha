@@ -1,0 +1,62 @@
+context:
+  page:
+    title: Stops made by KK69 FJU
+    introduction: false
+    backURL: survey-dashboard.html
+    nextURL: add-journey-stops.html
+  days:
+    options:
+      - {
+          label: Monday 1 March 2020,
+          details: '0 stops added',
+          editable: true,
+          editLabel: Add,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Tuesday 2 March 2020,
+          details: '0 stops added',
+          editable: true,
+          editLabel: Add,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Wednesday 3 March 2020,
+          details: '0 stops added',
+          editable: true,
+          editLabel: Add,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Thursday 4 March 2020,
+          details: '0 stops added',
+          editable: true,
+          editLabel: Add,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Friday 5 March 2020,
+          details: '0 stops added',
+          editable: true,
+          editLabel: Add,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Saturday 6 March 2020,
+          details: '0 stops added',
+          editable: true,
+          editLabel: Add,
+          editHref: add-journey-stops.html,
+        }
+      - {
+          label: Sunday 7 March 2020,
+          details: '0 stops added',
+          editable: true,
+          editLabel: Add,
+          editHref: add-journey-stops.html,
+        }
+  action:
+    label: Add a stop
+    href: 'add-journey-stops.html'
+  actionTwo:
+    label: Bulk upload stops

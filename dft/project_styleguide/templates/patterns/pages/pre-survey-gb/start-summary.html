@@ -1,0 +1,37 @@
+{% extends "patterns/base_page_v3.html" %}
+
+
+
+{% block content %}
+<div class="app__width-container">
+    {% include "patterns/atoms-s3/back-link/back-link.html" %}
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html"  %}
+
+                <form class="form" action="{{ page.nextURL }}" method="get" novalidate>
+                    {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=overview  %}
+
+                    <h2 class="govuk-heading-m">Preliminary questions</h2>
+                    <p class="govuk-body">We now want to ask you some questions before the survey starts.</p>
+                    <p class="govuk-body">The questions will cover:</p>
+                    <ul class="govuk-list govuk-list--bullet">
+                        <li>Who to contact about this survey</li>
+                        <li>Whether you would like an email reminder</li>
+                    </ul>
+
+                    <p class="govuk-body">It will take around 5 minutes.</p>
+
+                    {% include "patterns/atoms-s3/button/button.html" with field=action %}
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

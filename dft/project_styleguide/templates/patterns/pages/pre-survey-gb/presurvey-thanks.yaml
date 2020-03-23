@@ -1,0 +1,10 @@
+context:
+  page:
+    title: 'Thanks'
+    introduction: false
+  panel:
+    title: 'Thank you for your answers'
+    body: false
+  action:
+    label: Start now
+    href: code.html

@@ -1,0 +1,26 @@
+context:
+  page:
+    title: 'Vehicle details'
+    introduction: false
+    backURL: vehicle-hire-reward.html
+    nextURL: survey-dashboard-complete-vehicle.html
+  overview:
+    options:
+      - { label: 'Registration', details: KK69 FJU }
+      - { label: 'Gross vehicle weight', details: '8,900kg', editable: true }
+      - { label: 'Carrying capacity', details: '18,900kg', editable: true }
+      - {
+          label: 'Type of vehicle',
+          details: 'Articulated 6x6 (333)',
+          editable: true,
+        }
+      - {
+          label: 'Trailer type',
+          details: 'Temperature controlled',
+          editable: true,
+        }
+      - { label: 'Base location', details: 'BS1 5AP', editable: true }
+      - { label: 'Fuel used', details: '4,000 litres', editable: true }
+      - { label: 'Hire and reward', details: 'Yes', editable: true }
+  action:
+    label: Continue

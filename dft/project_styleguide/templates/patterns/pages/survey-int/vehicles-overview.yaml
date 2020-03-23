@@ -1,0 +1,28 @@
+context:
+  page:
+    title: Your vehicles
+    introduction: false
+    backURL: survey-dashboard-complete-trip.html
+    nextURL: survey-dashboard-complete-trip.html
+  vehicleInfo:
+    options:
+      - {
+        label: 'Type of vehicle',
+        details: 'Articulated 6x6 (333)',
+        editable: true,
+      }
+      - {
+        label: 'Trailer type',
+        details: 'Temperature controlled',
+        editable: true,
+      }
+      - { label: 'Gross vehicle weight', details: '8,900kg', editable: true }
+      - { label: 'Carrying capacity', details: '18,900kg', editable: true }
+      - { label: 'Hire and reward', details: 'Yes', editable: true }
+  actionTwo:
+    label: Continue
+    href: 'survey-dashboard-complete-trip.html'
+  action:
+    label: Add another vehicle
+  sectionAction:
+    label: Continue

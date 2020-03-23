@@ -1,0 +1,78 @@
+{% extends "patterns/base_page_v3.html" %}
+
+
+
+{% block content %}
+<div class="app__width-container">
+    {% include "patterns/atoms-s3/back-link/back-link.html" %}
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html" %}
+
+                <form class="form" action="{{ page.nextURL }}" method="get" novalidate>
+                    {% if page.body %}
+                    <p class="govuk-body govuk-!-margin-bottom-8">{{ page.body }}</p>
+                    {% endif %}
+
+                    <ol class=" app-task-list">
+                        <li>
+                            <h2 class="app-task-list__section">
+                                Monday 1 March 2020
+                            </h2>
+                            {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=dayOne %}
+                        </li>
+                        <li>
+                            <h2 class="app-task-list__section">
+                                Tuesday 2 March 2020
+                            </h2>
+                            {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=dayTwo %}
+                        </li>
+                        <li>
+                            <h2 class="app-task-list__section">
+                                Wednesday 3 March 2020
+                            </h2>
+                            {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=dayThree %}
+                        </li>
+                        <li>
+                            <h2 class="app-task-list__section">
+                                Thursday 4 March 2020 - 2 stops
+                            </h2>
+                            {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=dayFour %}
+                        </li>
+                        <li>
+                            <h2 class="app-task-list__section">
+                                Friday 5 March 2020
+                            </h2>
+                            {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=dayFive %}
+                        </li>
+                        <li>
+                            <h2 class="app-task-list__section">
+                                Saturday 6 March 2020
+                            </h2>
+                            {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=daySix %}
+                        </li>
+                        <li>
+                            <h2 class="app-task-list__section">
+                                Sunday 7 March 2020
+                            </h2>
+                            {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=daySeven %}
+                        </li>
+                    </ol>
+
+
+                    <h2 class="govuk-heading-m">Save stops for KK69 FJU</h2>
+
+                    <p class="govuk-body">If you've entered all of your stops, you can now continue:</p>
+                    {% include "patterns/atoms-s3/button/button.html" with field=action %}
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

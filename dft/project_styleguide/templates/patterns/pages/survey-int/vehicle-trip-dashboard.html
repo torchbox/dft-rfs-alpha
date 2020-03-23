@@ -1,0 +1,50 @@
+{% extends "patterns/base_page_v3.html" %}
+
+
+
+{% block content %}
+<div class="app__width-container">
+    {% include "patterns/atoms-s3/back-link/back-link.html" %}
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html" %}
+
+                {% if page.body %}
+                <p class="govuk-body govuk-!-margin-bottom-8">{{ page.body }}</p>
+                {% endif %}
+
+                <form class="form" action="{{ page.nextURL }}" method="get" novalidate>
+                    <div class="govuk-!-margin-bottom-5">
+                        <h2 class="govuk-heading-l">01 March 2020 to 11 March 2020</h2>
+                        <a class="govuk-link govuk-body" href="#">Remove trip and associated consignments (1)</a>
+                    </div>
+                    {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=summary  %}
+                    <h2 class="govuk-heading-m">Outward trip - from the UK</h2>
+                    {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=outward  %}
+                    <h2 class="govuk-heading-m">Return trip - to the UK</h2>
+                    {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=return  %}
+                    <h2 class="govuk-heading-l">Consignments</h2>
+                    
+                    <div class="form__side-by-side">
+                        <h2 class="govuk-heading-m">Bread</h2>&nbsp;&nbsp;&nbsp;
+                        <a class="govuk-link govuk-body" href="#">Remove</a>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    {% include "patterns/atoms-s3/summary-list/summary-list.html" with field=consignmentSummary %}         
+                    <div class="govuk-!-margin-bottom-9">
+                        <a class="govuk-link govuk-body" href="#">Add another consignment</a>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    
+                    {% include "patterns/atoms-s3/button/button.html" with field=action %}
+                    {% include "patterns/atoms-s3/button/button--secondary.html" with field=actionTwo %}
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

@@ -1,0 +1,49 @@
+context:
+  page:
+    title: Goods
+    introduction: false
+    backURL: add-journey-distance.html
+    nextURL: add-journey-capacity.html
+  questionOne:
+    label: 'Basic description of goods carried to this stop'
+    hint: 'For example, live animals, household waste, mail or parcels, plant hire'
+    id: goods-description
+    modifier: govuk-input--width-20
+  questionTwo:
+    label: 'Were these dangerous or hazardous goods?'
+    id: goods-danger
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: goods-danger }
+      - { label: 'No', id: goods-danger-2 }
+  questionThree:
+    label: 'Cargo type'
+    id: goods-type
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Liquid Bulk', id: business-employ }
+      - { label: 'Solid Bulk', id: business-employ-2 }
+      - { label: 'Large Freight Containers, incl. ISO
+      Containers', id: business-employ }
+      - { label: 'Other Freight Containers, including
+      Stillage’s', id: business-employ-2 }
+      - { label: 'Palletised Goods', id: business-employ }
+      - { label: 'Pre Slung Goods', id: business-employ-2 }
+      - { label: 'No Packaging and other mobile units
+      e.g. Livestock, Cars, Plant', id: business-employ }
+      - { label: 'Roll Cages and other mobile units', id: business-employ-2 }
+      - { label: 'Other Cargo Types including Swap
+      Bodies, Boxes, Crates and Cylinders or
+      mixed consignments', id: business-employ }
+  questionFour:
+    label: 'Cargo weight'
+    id: goods-weight
+    modifier: govuk-input--width-10
+  questionFive:
+    label: '&nbsp;'
+    id: goods-weight-unit
+    options:
+      - { label: 'Kg', id: goods-weight-unit }
+      - { label: 'lbs', id: goods-weight-unit-2 }
+  action:
+    label: Continue

@@ -1,0 +1,11 @@
+context:
+  page:
+    title: 'Hiree details'
+    introduction: 'It is still your responsibility to fill out the survey, however we can contact the person you have hired the vehicle to, and ask them to fill out the details for you'
+    backURL: intent-on-hire.html
+    nextURL: presurvey-summary.html
+  questionOne:
+    label: "Hiree's email address"
+    modifier: govuk-input--width-20
+  action:
+    label: Continue

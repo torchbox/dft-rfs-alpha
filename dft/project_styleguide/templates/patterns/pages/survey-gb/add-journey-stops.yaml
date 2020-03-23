@@ -1,0 +1,15 @@
+context:
+  page:
+    title: false
+    introduction: false
+    backURL: survey-dashboard.html
+    nextURL: add-journey.html
+  questionOne:
+    label: 'Did the vehicle have five or more stops on Monday 1 March 2020?'
+    id: journey-stops
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: journey-stops }
+      - { label: 'No', id: journey-stops-2 }
+  action:
+    label: Continue

@@ -1,0 +1,29 @@
+context:
+  page:
+    title: 'Vehicle details'
+    introduction: false
+    backURL: business-details.html
+    nextURL: presurvey-summary.html
+  overview:
+    options:
+      - { label: 'Registration', details: KK69 FJU }
+      - { label: 'Gross vehicle weight', details: '8,900kg', editable: true }
+      - { label: 'Carrying capacity', details: '18,900kg', editable: true }
+      - {
+          label: 'Type of vehicle',
+          details: 'Articulated 6x6 (333)',
+          editable: true,
+        }
+  questionOne:
+      label: 'Does your vehicle have a trailer?'
+      id: trailer
+      options:
+        - { label: 'Yes', id: trailer }
+        - { label: 'No', id: trailer }
+  questionTwo:
+    label: 'Where is the vehicle based?'
+    hint: 'Postcode'
+    modifier: govuk-input--width-20
+    id: Some-intro
+  action:
+    label: Continue

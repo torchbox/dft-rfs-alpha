@@ -1,0 +1,23 @@
+context:
+  page:
+    title: 'Business details'
+    introduction: false
+    backURL: notifications.html
+    nextURL: vehicle-details.html
+  questionOne:
+    label: 'What is the nature of your business'
+    id: business-nature
+    hint: For example, haulier, electrical goods wholesaler, or furniture manufacturer.
+  questionTwo:
+    label: 'How many people does your firm employ in the UK?'
+    id: business-employ
+    modifier: govuk-input--width-5
+  questionThree:
+    label: 'Does your firm ever hire out vehicles?'
+    id: business-hire
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: business-hire }
+      - { label: 'No', id: business-hire-2 }
+  action:
+    label: Continue

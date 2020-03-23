@@ -1,0 +1,28 @@
+{% extends "patterns/base_page_v3.html" %}
+
+
+
+{% block content %}
+<div class="app__width-container">
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/atoms-s3/panel/panel.html" with field=panel %}
+
+                <h2 class="govuk-heading-m">What happens next</h2>
+
+                <p class="govuk-body">
+                    We'll attempt to make contact with the person who is hiring your vehicle.
+                </p>
+
+                <p class="govuk-body">
+                    If we're unable to reach them a member of our team will be in touch.
+                </p>
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

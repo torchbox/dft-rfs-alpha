@@ -1,0 +1,15 @@
+context:
+  page:
+    title: Goods
+    introduction: false
+    backURL: add-journey-destination.html
+    nextURL: add-journey-destination-loaded.html
+  questionOne:
+    label: 'Were the goods being transferred to a shipping port, dock, rail siding, terminal or airport?'
+    id: journey-transferred-from-pre
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: journey-transferred-from-pre }
+      - { label: 'No', id: journey-transferred-from-pre2 }
+  action:
+    label: Continue

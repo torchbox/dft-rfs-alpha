@@ -1,0 +1,18 @@
+context:
+  page:
+    title: Distance
+    introduction: false
+    backURL: add-journey-destination.html
+    nextURL: add-journey-goods.html
+  questionOne:
+    label: 'Distance travelled to this stop'
+    id: distance
+    modifier: govuk-input--width-10
+  questionTwo:
+    label: '&nbsp;'
+    id: distance-unit
+    options:
+      - { label: 'Miles', id: distance }
+      - { label: 'Kilometres', id: distance-2 }
+  action:
+    label: Continue

@@ -1,0 +1,15 @@
+context:
+  page:
+    title: 'Survey reminders'
+    introduction: false
+    backURL: intent.html
+    nextURL: presurvey-summary.html
+  questionOne:
+    label: 'Do you want a reminder email when your survey starts?'
+    hint: 'Sent to example@email.com 24 hours before the survey starts'
+    id: notifications
+    options:
+      - { label: 'Yes', id: notifications, checked: true }
+      - { label: 'No', id: notifications }
+  action:
+    label: Continue

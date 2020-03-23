@@ -1,0 +1,28 @@
+{% extends "patterns/base_page.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+<div class="app__width-container">
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                {% include "patterns/molecules/page-heading/page-heading.html"  %}
+
+                <ul class="govuk-list govuk-list--bullet">
+                    <li>A letter from the Department for Transport</li>
+                    <li>The two part code included in the letter</li>
+                </ul>
+
+                <p class="govuk-body">Filling out the survey should take around 10 minutes.</p>
+
+                {% include "patterns/atoms/button/button--start.html" with field=action %}
+
+            </div>
+        </div>
+
+    </main>
+</div>
+{% endblock %}

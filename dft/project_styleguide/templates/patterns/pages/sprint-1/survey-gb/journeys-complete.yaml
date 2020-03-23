@@ -1,0 +1,40 @@
+context:
+  page:
+    title: Stops for KK69 FJU
+    introduction: false
+    backURL: add-journey-summary.html
+    nextURL: survey-dashboard-complete.html
+  dayOne:
+    options:
+      - { label: Loughborough to Ashby, status: '200 miles' }
+      - { label: Ashby to Coalville, status: 120 miles  }
+      - { label: Add another stop, status: false }
+  dayTwo:
+    options:
+      - { label: Loughborough to Ashby, status: '200 miles' }
+      - { label: Ashby to Coalville, status: 120 miles  }
+      - { label: Add another stop, status: false }
+  dayThree:
+    options:
+      - { label: Loughborough to Ashby, status: '200 miles' }
+      - { label: Ashby to Coalville, status: 120 miles  }
+      - { label: Add another stop, status: false }
+  dayFour:
+    options:
+      - { label: Loughborough to Ashby, status: '200 miles' }
+      - { label: Ashby to Coalville, status: 120 miles  }
+      - { label: Add another stop, status: false }
+  dayFive:
+    options:
+      - { label: Loughborough to Ashby, status: '200 miles' }
+      - { label: Ashby to Coalville, status: 120 miles  }
+      - { label: Add another stop, status: false }
+  daySix:
+    options:
+      - { label: Add a stop, status: false }
+  daySeven:
+    options:
+      - { label: Add a stop, status: false }
+  action:
+    label: Continue
+    href: "add-journey.html"

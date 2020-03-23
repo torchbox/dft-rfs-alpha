@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DFT category guesser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+</head>
+<body class="w-100 sans-serif black-80 bg-lightest-blue">
+  <div id="app">
+    <form @submit="formSubmit" class="pa4 black-80">
+        <div class="measure">
+            <h1 class="f2 lh-solid mb3">DfT category suggester</h1>
+            <label for="name" class="f6 b db mb2">Description of goods</label>
+            <input id="name" class="input-reset ba b--black-20 pa2 mb1 db w-100 br1" 
+                type="text" v-model.lazy="description">
+            <p class="f6 mt0">try: 
+                <span v-for="(example, index) in examples">
+                    <a class="blue link dim" v:id="example" href="#" v-on:click="fill">
+                        {{ example }}</a><span v-if="index < examples.length -1">, </span>
+                </span> 
+            </p>
+            <input type="radio" class="ml1" id="one" value="1" v-model="is_domestic">
+            <label for="one" class="f6 black-60">domestic</label>
+            <input type="radio" id="two" class="ml2" value="" v-model="is_domestic">
+            <label for="two" class="f6 black-60">international</label>
+            <br>
+            <input id="submit" class="mt3 b pointer ph3 pv2 input-reset ba b--black br1 bg-transparent f6 mb3" 
+                type="submit" :value="button_text">
+            <p v-if="probability" 
+                class="pa2 br1" v-bind:class="results_style">We're 
+                <strong>{{percentage}}%</strong> confident that 
+                <strong>&lsquo;{{description}}&rsquo;</strong> is 
+                <strong>{{category}}</strong>
+            </p>
+        </div>
+            
+    </form>
+  </div>
+
+  <script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            description: '',
+            category: false,
+            probability: 0,
+            button_text: 'Suggest a category',
+            results_style: '',
+            is_domestic: 1,
+            examples: ['waste', 'totem sign', 'milk', 'cement', 'bananas', 'chickens', 'coal', 'juice',],
+        },
+        computed: {
+            percentage: function () {
+                return (parseFloat(this.probability) * 100).toFixed(1);
+            }
+        },
+        methods: {
+            formSubmit(e) {
+                e.preventDefault();
+                app.button_text = "Suggesting...";
+                app.results_style = 'bg-light-green';
+                const formData = new FormData();
+                if (app.is_domestic) {
+                    api_url = "https://dft.tomd.org/predict";
+                } else {
+                    api_url = "https://ludwig-dft-international-yrm3wokmna-ez.a.run.app/predict";
+                }
+                formData.append('description', app.description);
+                axios.post(api_url, formData)
+                    .then(function (response) {
+                        app.category = response.data['category'];
+                        app.probability = response.data['probability'];
+                        if (app.probability < 0.8) {
+                            app.results_style = 'bg-light-red'
+                        }
+                        app.button_text = "Suggest a category";
+                    })
+                .catch(function (error) {
+                    console.log(error);
+                });
+            },
+            fill: function (event) {
+                app.description = event.target.innerText;
+                app.probability = 0
+            }
+
+        }
+    })
+  </script>
+</body>
+</html>

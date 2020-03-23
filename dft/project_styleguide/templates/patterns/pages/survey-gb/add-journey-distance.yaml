@@ -1,0 +1,22 @@
+context:
+  page:
+    title: Distance travelled to this stop
+    introduction: false
+    backURL: add-journey-destination-loaded.html
+    nextURL: add-journey-distance-validation.html
+  questionOne:
+    label: 'Distance'
+    id: distance
+    modifier: govuk-input--width-10
+  questionTwo:
+    label: '&nbsp;'
+    id: distance-unit
+    options:
+      - { label: 'Miles', id: distance }
+      - { label: 'Kilometres', id: distance-2 }
+  suggested:
+    title: 'We recognise this stop (BS31 6SA to OX25 4SA), you previously entered:'
+    options:
+      - { title: '201 miles' }
+  action:
+    label: Continue

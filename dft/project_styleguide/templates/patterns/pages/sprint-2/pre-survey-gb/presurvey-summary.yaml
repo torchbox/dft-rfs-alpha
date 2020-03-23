@@ -1,0 +1,20 @@
+context:
+  page:
+    title: Please check your answers
+    introduction: false
+    backURL: notifications.html
+    nextURL: presurvey-thanks.html
+  overviewContact:
+    options:
+      - { label: 'Will complete survey', details: 'Yes', editable: true }
+      - { label: 'Vehicle on hire', details: 'No', editable: true }
+      - { label: 'Name', details: Nicholas Lee, editable: true }
+      - { label: 'Telephone', details: '07595153834', editable: true }
+      - { label: 'Email address', details: 'example@email.com', editable: true }
+      - {
+          label: 'Email reminders',
+          details: 'Yes',
+          editable: true,
+        }
+  action:
+    label: Save

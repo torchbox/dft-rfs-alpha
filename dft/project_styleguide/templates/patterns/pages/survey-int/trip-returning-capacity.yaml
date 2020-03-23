@@ -1,0 +1,15 @@
+context:
+  page:
+    title: false
+    introduction: false
+    backURL: trip-uk-arrival.html
+    nextURL: trip-returning-capacity-space.html
+  questionOne:
+    label: 'On returning to the UK was your vehicle empty?'
+    id: capacity-empty
+    modifier: govuk-radios--inline
+    options:
+      - { label: 'Yes', id: capacity-empty }
+      - { label: 'No', id: capacity-empty-2 }
+  action:
+    label: Continue
