@@ -3,7 +3,7 @@ astor==0.8.1
 Click==7.0
 Cython==0.29.15
 dataclasses==0.7
-fastapi==0.48.0
+fastapi==0.65.2
 gast==0.3.3
 google-pasta==0.1.8
 grpcio==1.27.2
