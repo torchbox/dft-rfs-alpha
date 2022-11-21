@@ -30,7 +30,7 @@ six==1.14.0
 starlette==0.12.9
 tabulate==0.8.6
 tensorboard==1.14.0
-tensorflow==1.15.4
+tensorflow==2.9.3
 tensorflow-estimator==1.14.0
 termcolor==1.1.0
 tqdm==4.42.1
